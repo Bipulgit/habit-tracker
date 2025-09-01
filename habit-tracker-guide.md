@@ -18,27 +18,6 @@ npx tailwindcss init -p
 ### File Structure
 ```
 habit-tracker/
- ┣ src/
- ┃ ┣ components/
- ┃ ┃ ┣ Auth.jsx         # Login/Register UI
- ┃ ┃ ┣ Navbar.jsx
- ┃ ┃ ┣ HabitForm.jsx    # Add/Edit Habit
- ┃ ┃ ┣ HabitList.jsx    # Show all habits
- ┃ ┃ ┣ HabitLogs.jsx    # Daily logs
- ┃ ┃ ┗ Stats.jsx        # Charts for progress
- ┃ ┣ pages/
- ┃ ┃ ┣ Dashboard.jsx    # Main page after login
- ┃ ┃ ┣ Login.jsx
- ┃ ┃ ┗ Register.jsx
- ┃ ┣ lib/
- ┃ ┃ ┗ supabase.js      # Supabase client setup
- ┃ ┣ App.jsx
- ┃ ┗ main.jsx
- ┣ .env
- ┗ package.json
-```
-### File Structure part 2
-habit-tracker/
 ┣ 📁 public/
 ┃ ┗ vite.svg
 ┣ 📁 src/
@@ -71,7 +50,7 @@ habit-tracker/
 ┣ package.json           # Project dependencies
 ┗ README.md              # Project documentation
 
----
+```
 
 ## 2️⃣ Backend (Supabase Setup)
 
